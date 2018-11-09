@@ -1,0 +1,321 @@
+/* Reset Styles */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'mont-regular';
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  overflow-x: hidden;
+}
+.clear{
+  clear:both;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+button:active,
+button:focus {
+  outline: none;
+}
+
+.slick-slide {
+  outline: none !important;
+}
+
+/* Reset Styles */
+
+*{
+  transition:all 0.3s;
+}
+
+.top-nav{
+  background-image:url('../../images/top-bar.png');
+  background-size:cover;
+}
+
+.centered-logo{
+   position: absolute;
+   left:50%;
+   top:50%;
+   transform: translate(-50%,-50%);
+}
+
+.centered-logo img{
+  width: 200px;
+  padding-top: 10px;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nav-link img{
+  width:25px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link{
+  padding-right:35px;
+}
+
+.carousel-indicators li{
+  width:25%;
+}
+
+.left-block-caption{
+  background: #000000;
+  max-width: 400px;
+  padding:35px 25px;
+  text-align: left;
+}
+
+.relative-wrap{
+  width: 100%;
+  position: relative;
+  min-height: 90vh;
+}
+
+.left-block-caption{
+  font-size:36px;
+  color:white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.configure-btn-wrap{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.carousel-indicators{
+  margin-right: 11.5%;
+  margin-left: 11.5%;
+}
+
+.left-block-caption h1{
+  font-size:36px;
+  text-transform: uppercase;
+  font-family: 'mont-light';
+}
+
+.white-hr{
+  margin-top:50px;
+  border-top:1px solid white;
+}
+
+.left-block-caption p{
+  margin:0;
+  height: 20px;
+}
+
+.left-block-caption .table-types{
+  font-size:12px;
+  margin:0;
+}
+
+.carousel-caption{
+  padding-left:0;
+}
+
+.configure-btn{
+  border:none;
+  background: black;
+  height: 33px;
+  border-radius: 0;
+  padding:5px 15px;
+}
+
+.configure-btn span{
+  color:white;
+  font-family: mont-light;
+}
+
+.newsletter{
+  position: absolute;
+  right: -58px;
+  top: 50%;
+  z-index: 5;
+  transform: rotate(270deg);
+  cursor: pointer
+}
+
+.newsletter-btn{
+  background: black;
+  border:none;
+  padding: 12px 15px;
+  color:white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+/* About us Section */
+
+.about-us{
+  background: #000000;
+  padding-top:120px;
+  position: relative;
+  min-height: 765px;
+}
+
+.hero-box h1{
+  color:white;
+  font-size:36px;
+  font-family: 'mont-light';
+}
+
+.hero-box p{
+  color:white;
+  font-family: 'mont-light';
+  font-size: 12px;
+  line-height: 2.4;
+}
+
+.hidden{
+  display: none;
+}
+
+.read-more{
+  font-size: 14px;
+  font-family: 'mont-regular';
+  margin-top: 60px;
+  color: white;
+  display: block;
+  text-decoration: underline;
+}
+
+.read-more:hover{
+  text-decoration: none;
+  color:white;
+}
+
+.img-cut-right{
+  position: absolute;
+  right: -32%;
+  top: 10%;
+}
+
+
+/* About us Section */
