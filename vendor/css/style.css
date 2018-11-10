@@ -319,3 +319,135 @@ button:focus {
 
 
 /* About us Section */
+
+
+
+/* Services Section */
+.services-section{
+  background: #000000;
+  padding-top:60px;
+  position: relative;
+  min-height: 765px;
+}
+.pos-relatv{
+  position: relative;
+  height: 100%;
+}
+.services-abs-div{
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    padding: 35px;
+    text-align: center;
+}
+.pos-relatv > img{
+  width: 100%;
+  height: 100%;
+}
+.services-abs-p{
+  font-family: 'mont-light';
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  font-size: 29px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+
+}
+.no-padding-left{
+padding-left: 0 !important;
+}
+.mar-top15{
+  margin-top: 15px;
+}
+
+/* vehicles Section */
+.vehicles-section{
+  background: #000000;
+  padding-top:60px;
+  position: relative;
+  min-height: 765px;
+}
+.vehicls-heading{
+  text-transform: uppercase;
+  color: white;
+  font-family: 'mont-light';
+  font-size: 45px;
+}
+.vehicls-hdng-side-txt{
+  color: white;
+  font-family: 'mont-light';
+  line-height: 27px;
+}
+.white-hr-vehicls{
+  border-top: 1px solid white;
+}
+.mar-top-70{
+  margin-top: 70px;
+}
+.vehicls-subheadng1{
+  color: white;
+  font-family: 'mont-light';
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.mar0{
+  margin: 0 !important;
+}
+.width96{
+  width: 96px;
+}
+.width126{
+width: 126px;
+}
+.vehicles-info-div > img{
+  width: 100%;
+}
+.vehicles-info-div p{
+  color: white;
+  text-transform: uppercase;
+  font-family: 'mont-light';
+  margin-top: 20px;
+  font-size: 20px;
+}
+.mk-yr-mdl-div{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mk-yr-mdl-div  p{
+  font-family: 'mont-light';
+  margin-bottom: 0 !important;
+  font-size: 12px;
+  margin-top:  5px !important;
+  color: gray !important;
+}
+.mar-20px{
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;;
+}
+.price-txt{
+  font-family: 'mont-light';
+  font-size: 12px !important;
+  color: gray !important;
+}
+.explore-txt{
+  color: white !important;
+  font-family: 'mont-light';
+  font-size: 18px;
+    border-bottom: 1px solid;
+    width: 67px;
+    cursor: pointer;
+}
+.float-lft{
+  position: relative;
+  float: left;
+  background-color: gray;
+  margin-left: 6px;
+  padding: 3px;
+}
+.flt-ryt{
+  float:right;
+}
