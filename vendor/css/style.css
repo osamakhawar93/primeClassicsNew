@@ -337,7 +337,7 @@ button:focus {
   position: absolute;
   bottom: 0;
   background-color: black;
-    opacity: 0.4;
+    opacity: 0.5;
     width: 100%;
     padding: 35px;
     text-align: center;
@@ -367,15 +367,16 @@ padding-left: 0 !important;
 /* vehicles Section */
 .vehicles-section{
   background: #000000;
-  padding-top:60px;
+  padding-top:120px;
   position: relative;
-  min-height: 765px;
+  height: auto;
+  padding-bottom: 80px;
 }
 .vehicls-heading{
   text-transform: uppercase;
   color: white;
   font-family: 'mont-light';
-  font-size: 45px;
+  font-size: 46px;
 }
 .vehicls-hdng-side-txt{
   color: white;
@@ -418,36 +419,155 @@ width: 126px;
   margin-bottom: 20px;
 }
 .mk-yr-mdl-div  p{
+  text-transform: none !important;
   font-family: 'mont-light';
   margin-bottom: 0 !important;
   font-size: 12px;
   margin-top:  5px !important;
-  color: gray !important;
+  color: darkgray !important;
 }
 .mar-20px{
   margin-top: 20px !important;
   margin-bottom: 20px !important;;
 }
 .price-txt{
+  text-transform: none !important;
   font-family: 'mont-light';
   font-size: 12px !important;
-  color: gray !important;
+  color: darkgray !important;
 }
 .explore-txt{
   color: white !important;
   font-family: 'mont-light';
   font-size: 18px;
-    border-bottom: 1px solid;
-    width: 67px;
     cursor: pointer;
+    text-decoration: underline !important;
 }
 .float-lft{
   position: relative;
   float: left;
-  background-color: gray;
+  background-color: dimgray;
   margin-left: 6px;
-  padding: 3px;
+  padding: 4px;
 }
 .flt-ryt{
   float:right;
+}
+.arrow-span{
+  color: white;
+    padding-left: 8px;
+    font-family: 'mont-light';
+    font-size: 18px;
+}
+.width100{
+  width: 100%;
+}
+::placeholder {
+  color: darkgray;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: darkgray;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: darkgray;
+}
+.nn-input{
+  padding: 4px;
+}
+.abs-span{
+  border-bottom: 2px solid darkgray;
+  position: absolute;
+  width: 39px;
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+}
+.abs-span-1{
+  border-bottom: 2px solid darkgray;
+  position: absolute;
+  width: 55px;
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+}
+/* footer Section */
+
+.footer{
+  background-color: black;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer p{
+  color: white !important;
+  font-family: 'mont-light';
+  margin-bottom: 0 !important;
+  text-transform: uppercase;
+}
+.mar-top-30{
+  margin-top: 30px;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  .carousel-indicators {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.img-cut-right {
+  position: relative;
+  right: unset;
+  top: unset;
+}
+.img-cut-right > img{
+  width: 100%;
+}
+
+.services-abs-p {
+  font-family: 'mont-light';
+  color: white;
+  position: absolute;
+  bottom: 22px;
+  font-size: 20px;
+  left: 50%;
+}
+.no-mar-phn{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.no-padding-left{
+padding-left: 15px !important;
+}
+.mar-top-15-phn{
+  margin-top: 15px;
+}
+.mar-btm-15{
+  margin-bottom: 15px;
+}
+.carousel-indicators li {
+  width: 15%;
+}
+.centered-logo{
+position: relative;
+left: unset !important;
+top: unset !important;
+transform: unset !important;
+}
+.navbar-toggler{
+  background: white;
+  opacity: 0.7;
+}
+.navbar-toggler-icon{
+  background: black;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+      padding-right: unset; 
+      text-align: center;
+}
 }
